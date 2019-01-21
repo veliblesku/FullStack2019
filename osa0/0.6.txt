@@ -1,0 +1,5 @@
+Selain->Palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over Selain:Selain jättää aikaleimalla varustetun POST-pyynnön palvelimelle
+
+note over Selain: Selain päivittää näkymän

@@ -1,0 +1,12 @@
+title Fullstack-opening Sequence
+
+Selain->Palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note
+Palvelin->Selain: new_note/HTML-koodi
+Selain->Palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+Palvelin->Selain: main.css
+Selain->Palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js
+Palvelin->Selain: main.js
+note over Selain: Selain suorittaa js koodia, joka pyytää json-dataa
+Selain->Palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+Palvelin->Selain: data.json
+note over Selain: Selain renderöi päivitetyn näkymän
